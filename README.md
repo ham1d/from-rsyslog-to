@@ -8,4 +8,5 @@ Replace this file with original rsyslog config in `/etc/rsyslog.conf` and restar
 
 ## Optimization
 `if $msg contains 'AVR' then @@192.168.74.199:514`
+
 Replace your TAG and remtoe server address in rsyslog.conf file
